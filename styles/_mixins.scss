@@ -1,0 +1,8 @@
+@mixin FlexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin VerticallyCenter {
+  align-items: center;
+}

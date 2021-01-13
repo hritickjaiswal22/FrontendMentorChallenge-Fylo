@@ -1,0 +1,94 @@
+@import './mixins';
+
+.Intro {
+  background-color: #1c2431;
+
+  &__HeroSection {
+    margin: 0 auto;
+    max-width: 700px;
+    width: 80%;
+    text-align: center;
+  }
+
+  &__HeroSectionWrapper {
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+
+  &__Image {
+    width: 100%;
+  }
+
+  &__Heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  &__Para {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 3rem;
+  }
+
+  &__Btn {
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    padding: 1.7rem 9rem;
+    background: linear-gradient(
+      to right,
+      hsl(176, 68%, 64%),
+      hsl(198, 60%, 50%)
+    );
+    color: white;
+    font-size: 1.8rem;
+
+    &:hover {
+      cursor: pointer;
+      background: hsl(176, 68%, 64%);
+    }
+  }
+
+  &__DetailsWrapper {
+    background-color: hsl(218, 28%, 13%);
+    padding-top: 10rem;
+  }
+
+  &__DetailsSection {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  &__CardBox {
+    @include FlexSpaceBetween();
+    margin-bottom: 3rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &Card {
+    width: 45%;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    &__Title {
+      padding-top: 1rem;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    &__Description {
+      font-size: 1.2rem;
+    }
+  }
+}

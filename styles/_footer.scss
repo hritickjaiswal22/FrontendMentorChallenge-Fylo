@@ -1,0 +1,24 @@
+footer {
+  padding-top: 20rem;
+  padding-bottom: 5rem;
+  background-color: hsl(216, 53%, 9%);
+}
+
+.Footer__Section {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Footer__FlexContainer {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.Footer__Box {
+  width: 23.75%;
+}

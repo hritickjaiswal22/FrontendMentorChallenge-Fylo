@@ -1,0 +1,95 @@
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 1rem;
+
+    a {
+      margin-right: 0.6rem;
+    }
+  }
+
+  .Intro {
+    padding-top: 5rem;
+  }
+
+  .About__Section {
+    display: block;
+  }
+
+  .About__IllustrationBox {
+    width: 85%;
+    margin: 5rem auto;
+  }
+
+  .About__Details {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .TestimonialSection {
+    display: block;
+  }
+
+  .Testimonial {
+    width: 85%;
+    max-width: 32rem;
+    margin: 3rem auto;
+  }
+
+  .SignUp__Form {
+    bottom: -135%;
+  }
+
+  .SignUp__Form__Input {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Intro__CardBox {
+    display: block;
+  }
+
+  .IntroCard {
+    margin: 5rem auto;
+    width: 90%;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .SignUp__Form {
+    width: 94%;
+  }
+
+  .Footer__FlexContainer {
+    display: block;
+    text-align: center;
+  }
+
+  .Footer__Box {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header {
+    .Logo {
+      width: 100%;
+    }
+
+    .LogoBox {
+      width: 8rem;
+    }
+  }
+
+  .Intro__Btn {
+    width: 95%;
+    padding: 1.5rem 2rem;
+  }
+
+  .SignUp__Form {
+    padding: 1rem;
+  }
+}

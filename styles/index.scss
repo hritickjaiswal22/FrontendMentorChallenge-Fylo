@@ -1,0 +1,17 @@
+@import './variables';
+@import './header';
+@import './Intro';
+@import './about';
+@import './testimonials';
+@import './SignUp';
+@import './footer';
+@import './mediaQueries';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}

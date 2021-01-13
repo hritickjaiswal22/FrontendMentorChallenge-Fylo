@@ -1,0 +1,46 @@
+@import './mixins';
+
+.About {
+  background-color: #181f2a;
+  padding-top: 5rem;
+
+  &__Section {
+    @include FlexSpaceBetween;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 80%;
+  }
+
+  &__IllustrationBox {
+    width: 50%;
+  }
+
+  &__Illustration {
+    width: 100%;
+  }
+
+  &__Details {
+    width: 45%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+  }
+
+  &__Title {
+    font-size: 3rem;
+  }
+
+  &__Description {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  &__Link {
+    font-size: 1.5rem;
+    color: hsl(176, 68%, 64%);
+
+    &:hover {
+      color: white;
+    }
+  }
+}

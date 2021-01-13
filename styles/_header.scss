@@ -1,0 +1,20 @@
+@import './mixins';
+
+header {
+  @include FlexSpaceBetween();
+  @include VerticallyCenter;
+  background: hsl(217, 28%, 15%);
+  padding: 7rem;
+
+  a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
